@@ -1,6 +1,8 @@
 import timetrack from "@/public/thumbnails/client.webp";
 import medium from "@/public/thumbnails/medium.webp";
 import school from "@/public/thumbnails/school.webp";
+import task from "@/public/thumbnails/task-manage.png";
+
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -89,6 +91,13 @@ export const projectsData = [
       "A sleek web application for optimized commercial tracking, boosting productivity and efficiency in all business operations.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: timetrack,
+  },
+  {
+    title: "Issue Management System",
+    description:
+      "Web application to track projects an its issues, issue can be created searched deleted or marked as completed",
+    tags: ["React", "Next.js", "Tailwind", "Framer", "Server Actions", "SSR"],
+    imageUrl: task,
   },
 ] as const;
 
