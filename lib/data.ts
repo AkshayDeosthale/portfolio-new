@@ -2,6 +2,7 @@ import timetrack from "@/public/thumbnails/client.webp";
 import medium from "@/public/thumbnails/medium.webp";
 import school from "@/public/thumbnails/school.webp";
 import task from "@/public/thumbnails/task-manage.png";
+import DIS from "@/public/thumbnails/DIS.png";
 
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
@@ -91,6 +92,13 @@ export const projectsData = [
       "A sleek web application for optimized commercial tracking, boosting productivity and efficiency in all business operations.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: timetrack,
+  },
+  {
+    title: "Delhi International School",
+    description:
+      "I crafted the Delhi International School website using Next.js, Nest.js, and CSS, seamlessly blending modern frontend design with a robust backend for an immersive and responsive user experience.",
+    tags: ["Next.js", "SSR", "NestJS"],
+    imageUrl: DIS,
   },
   {
     title: "Issue Management System",

@@ -7,6 +7,9 @@ import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithubSquare } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
@@ -36,10 +39,10 @@ export default function Contact() {
         <a className="underline" href="mailto:example@gmail.com">
           akshay.deosthale6@gmail.com
         </a>{" "}
-        through this form or get in touch with me via LinkedIn.
+        or get in touch with me via LinkedIn.
       </p>
 
-      <form
+      {/* <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
@@ -68,7 +71,40 @@ export default function Contact() {
           maxLength={5000}
         />
         <SubmitBtn />
-      </form>
+      </form> */}
+
+      <div className="w-full mt-7 flex justify-center items-center">
+        <div className="card">
+          <div className="background"></div>
+          <div className="logo">Socials</div>
+
+          <a href="#">
+            <div className="box box1">
+              <span className="icon">
+                <FaGithubSquare className="svg" />
+              </span>
+            </div>
+          </a>
+
+          <a href="##">
+            <div className="box box2">
+              <span className="icon">
+                <BsLinkedin className="svg" />
+              </span>
+            </div>
+          </a>
+
+          <a href="###">
+            <div className="box box3">
+              <span className="icon">
+                <MdEmail className="svg" />
+              </span>
+            </div>
+          </a>
+
+          <div className="box box4"></div>
+        </div>
+      </div>
     </motion.section>
   );
 }
