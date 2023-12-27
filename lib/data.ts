@@ -1,7 +1,7 @@
 import timetrack from "@/public/thumbnails/client.webp";
 import medium from "@/public/thumbnails/medium.webp";
 import school from "@/public/thumbnails/school.webp";
-import task from "@/public/thumbnails/task-manage.png";
+import task_manage from "@/public/thumbnails/task-manage.png";
 import DIS from "@/public/thumbnails/DIS.png";
 
 import React from "react";
@@ -96,8 +96,8 @@ export const projectsData = [
   {
     title: "Delhi International School",
     description:
-      "I crafted the Delhi International School website using Next.js, Nest.js, and CSS, seamlessly blending modern frontend design with a robust backend for an immersive and responsive user experience.",
-    tags: ["Next.js", "SSR", "NestJS"],
+      "Crafted DIS website using Next.js, Nest.js, and CSS, blending modern frontend design with a robust backend for an immersive user experience.",
+    tags: ["Next.js", "NestJS"],
     imageUrl: DIS,
   },
   {
@@ -105,7 +105,7 @@ export const projectsData = [
     description:
       "Web application to track projects an its issues, issue can be created searched deleted or marked as completed",
     tags: ["React", "Next.js", "Tailwind", "Framer", "Server Actions", "SSR"],
-    imageUrl: task,
+    imageUrl: task_manage,
   },
 ] as const;
 
