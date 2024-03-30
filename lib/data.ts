@@ -5,7 +5,7 @@ import task_manage from "@/public/thumbnails/task-manage.png";
 import gigma from "@/public/thumbnails/gigma.png";
 import DIS from "@/public/thumbnails/DIS.png";
 import summa from "@/public/thumbnails/summa.png";
-import voom from "@/public/thumbnails/voom.png";
+import voom from "@/public/thumbnails/yoom.png";
 
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
