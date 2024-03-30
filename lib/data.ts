@@ -5,6 +5,7 @@ import task_manage from "@/public/thumbnails/task-manage.png";
 import gigma from "@/public/thumbnails/gigma.png";
 import DIS from "@/public/thumbnails/DIS.png";
 import summa from "@/public/thumbnails/summa.png";
+import voom from "@/public/thumbnails/voom.png";
 
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
@@ -74,6 +75,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Yoom by Akshay",
+    description: "Video calling platform usinf Stream.io",
+    tags: ["Next.js", "TS", "TailwindCSS"],
+    imageUrl: voom,
+    url: "https://yoom-by-akshay.vercel.app/",
+  },
   {
     title: "SumaURL",
     description:
