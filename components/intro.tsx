@@ -1,15 +1,12 @@
 "use client";
 
-import Image from "next/image";
-import React from "react";
-import { motion } from "framer-motion";
-import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
-import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import { IoIosContact } from "react-icons/io";
+import { useSectionInView } from "@/lib/hooks";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -65,9 +62,9 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Akshay.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">4 years</span> of experience. I enjoy
+        <span className="font-bold">over 6 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">MERN Stack</span>.
+        <span className="underline">MERN Stack and RUST development</span>.
       </motion.h1>
 
       <div className="custom-card">

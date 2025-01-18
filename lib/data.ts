@@ -1,9 +1,7 @@
-import timetrack from "@/public/thumbnails/client.webp";
+import DIS from "@/public/thumbnails/DIS.png";
+import gigma from "@/public/thumbnails/gigma.png";
 import medium from "@/public/thumbnails/medium.webp";
 import school from "@/public/thumbnails/school.webp";
-import task_manage from "@/public/thumbnails/task-manage.png";
-import gigma from "@/public/thumbnails/gigma.png";
-import DIS from "@/public/thumbnails/DIS.png";
 import summa from "@/public/thumbnails/summa.png";
 import voom from "@/public/thumbnails/yoom.png";
 
@@ -52,7 +50,7 @@ export const experiencesData = [
     title: "Full-Stack Developer as Sophos",
     location: "Ahmedabad, India",
     description:
-      "I served as a Full-Stack Developer in a Technical Support role at Sophos, where I delved into cybersecurity practices, learning how to integrate them with Node to craft secure applications for our clients.",
+      "Rocked it as a Full-Stack Developer at Sophos, where I got to be a cybersecurity superhero! 🛡️ Mastered the art of building fortress-like Node applications while keeping our clients' data safer than Fort Knox.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2022",
   },
@@ -60,35 +58,35 @@ export const experiencesData = [
     title: "Software Engineer at ThinkWik",
     location: "Ahmedabad, India",
     description:
-      "At ThinkWik, I served as a Full-Stack Developer, where I specialized in NextJS to develop NFT marketplaces and also honed my skills in implementing sockets with Node.js.",
+      "Leveled up at ThinkWik as a Full-Stack Developer, where I crafted cutting-edge NFT marketplaces with NextJS and orchestrated real-time magic using Node.js sockets. Built digital marketplaces that made crypto collectors' dreams come true! 🚀✨",
     icon: React.createElement(FaReact),
     date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer at Miraki Technologies",
+    title: "Full-Stack Lead at Miraki Technologies",
     location: "Hyderabad, India",
     description:
-      "At Miraki Technologies, I am currently serving as a Full-Stack Developer, focusing on projects involving Next.js, React.js, Nest.js, Express.js, and microservices.",
+      "Leading the charge at Miraki Technologies, where I orchestrate full-stack symphonies with Next.js, React.js, Nest.js, and Express.js! 🚀 Architecting robust microservices while keeping things scalable and snappy. Building tomorrow's tech solutions with today's best practices! ✨",
     icon: React.createElement(FaReact),
-    date: "2023 - Present",
+    date: "2023 - 2024",
+  },
+  {
+    title: "Full-Stack Blockchain Lead / Project Architect at GrowthAXL",
+    location: "Hyderabad, India",
+    description:
+      "All the fun things as before plus Blockchain, Azure devOps and RUST. Team lead and a project architect",
+    icon: React.createElement(FaReact),
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
     title: "Yoom by Akshay",
-    description: "Video calling platform usinf Stream.io",
+    description: "Video calling platform using Stream.io",
     tags: ["Next.js", "TS", "TailwindCSS"],
     imageUrl: voom,
     url: "https://yoom-by-akshay.vercel.app/",
-  },
-  {
-    title: "SumaURL",
-    description:
-      "Web page summary tool which Summarise using both OpenAi and Gemini on a single page.",
-    tags: ["Next.js", "Nest.js", "MongoDB", "TS", "OpenAI", "Gemini"],
-    imageUrl: summa,
-    url: "https://summerize-client.vercel.app/",
   },
   {
     title: "Gigma Not Figma",
@@ -98,6 +96,15 @@ export const projectsData = [
     imageUrl: gigma,
     url: "https://gigma-not-figma.akshaydeosthale.com",
   },
+  {
+    title: "SumaURL",
+    description:
+      "Web page summary tool which Summarise using both OpenAi and Gemini on a single page.",
+    tags: ["Next.js", "Nest.js", "MongoDB", "TS", "OpenAI", "Gemini"],
+    imageUrl: summa,
+    url: "https://summerize-client.vercel.app/",
+  },
+
   {
     title: "Delhi International School",
     description:
@@ -122,38 +129,21 @@ export const projectsData = [
     imageUrl: medium,
     url: "https://medium-blogs.akshaydeosthale.com",
   },
-
-  {
-    title: "TimeTrak Scheduling Software",
-    description:
-      "A sleek web application for optimized commercial tracking, boosting productivity and efficiency in all business operations.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: timetrack,
-    url: undefined,
-  },
-  {
-    title: "Issue Management System",
-    description:
-      "Web application to track projects an its issues, issue can be created searched deleted or marked as completed",
-    tags: ["React", "Next.js", "Tailwind", "Framer", "Server Actions", "SSR"],
-    imageUrl: task_manage,
-    url: undefined,
-  },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
+  "Fullstack",
+  "Project Architecture",
+  "RUST",
+  "Tauri",
+  "Blochcain",
+  "Azure DevOps",
   "TypeScript",
-  "React",
+  "React.Js",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
   "Nest.JS",
   "MongoDB",
-  "Redux",
   "Express",
   "PostgreSQL",
 ] as const;
