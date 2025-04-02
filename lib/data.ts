@@ -4,6 +4,8 @@ import medium from "@/public/thumbnails/medium.webp";
 import school from "@/public/thumbnails/school.webp";
 import summa from "@/public/thumbnails/summa.png";
 import voom from "@/public/thumbnails/yoom.png";
+import microauth from "@/public/thumbnails/microauth.png";
+import safecred from "@/public/thumbnails/safecred.png";
 
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
@@ -82,6 +84,34 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "SafeCred",
+    description: "AI powered credentials/certificate generation platform with a focus on security and user experience using blockchain.",
+    tags: ["AI","Next.js", "Node.js", "MongoDB", "TS", "TailwindCSS", "Algorand"],
+    imageUrl: safecred,
+    url: "https://wonderful-hill-00520dd00.4.azurestaticapps.net/signin",
+  },
+  {
+    title: "Microauth",
+    description: "Solo creator of the platform for custodial wallets on Algorand and much more functionality.",
+    tags: ["AI","Next.js", "Nest.js", "MongoDB", "TS", "TailwindCSS", "Algorand"],
+    imageUrl: microauth,
+    url: "https://orange-dune-00b6c240f.4.azurestaticapps.net/login",
+  },
+  {
+    title: "Microauth React & JS SDK",
+    description: "Video calling platform using Stream.io",
+    tags: ["AI","Next.js", "TS", "TailwindCSS"],
+    imageUrl: microauth,
+    url: "  ",
+  },
+  {
+    title: "IOT SDK",
+    description: "Video calling platform using Stream.io",
+    tags: ["AI","Python", "Flask", "RaspberyPie", "Algorand"],
+    imageUrl: voom,
+    url: "  ",
+  },
+  {
     title: "Yoom by Akshay",
     description: "Video calling platform using Stream.io",
     tags: ["Next.js", "TS", "TailwindCSS"],
@@ -146,4 +176,6 @@ export const skillsData = [
   "MongoDB",
   "Express",
   "PostgreSQL",
+  "TailwindCSS",
+  "Algorand",
 ] as const;
