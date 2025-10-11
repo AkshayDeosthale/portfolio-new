@@ -6,6 +6,7 @@ import summa from "@/public/thumbnails/summa.png";
 import voom from "@/public/thumbnails/yoom.png";
 import microauth from "@/public/thumbnails/microauth.png";
 import safecred from "@/public/thumbnails/safecred.png";
+import visio from "@/public/thumbnails/visio.png";
 
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
@@ -84,6 +85,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Visio AI",
+    description:
+      "AI image and video generation platform",
+    tags: [
+      "Fal.AI",
+      "Next.js", 
+      "MongoDB",
+      "TS",
+      "TailwindCSS",
+      "Server Actions",
+    ],
+    imageUrl: visio,
+    url: "https://visio-bice.vercel.app/",
+  },
+  {
     title: "SafeCred",
     description:
       "AI powered credentials/certificate generation platform with a focus on security and user experience using blockchain.",
@@ -97,7 +113,7 @@ export const projectsData = [
       "Algorand",
     ],
     imageUrl: safecred,
-    url: "https://wonderful-hill-00520dd00.4.azurestaticapps.net/signin",
+    url: "https://safecred.tech",
   },
   {
     title: "Microwallets",
@@ -144,14 +160,7 @@ export const projectsData = [
     imageUrl: gigma,
     url: "https://gigma-not-figma.akshaydeosthale.com",
   },
-  {
-    title: "SumaURL",
-    description:
-      "Web page summary tool which Summarise using both OpenAi and Gemini on a single page.",
-    tags: ["Next.js", "Nest.js", "MongoDB", "TS", "OpenAI", "Gemini"],
-    imageUrl: summa,
-    url: "https://summerize-client.vercel.app/",
-  },
+ 
 
   {
     title: "Delhi International School",
@@ -161,22 +170,8 @@ export const projectsData = [
     imageUrl: DIS,
     url: "https://disdelhi.com",
   },
-  {
-    title: "Bright Children Montessori Academy",
-    description:
-      "I served as a full-stack developer for a prominent Canadian school's website, contributing my expertise on a freelance basis.",
-    tags: ["TypeScript", "Next.js", "PostgresSQL", "Tailwind", "Strapi"],
-    imageUrl: school,
-    url: "https://children-school.akshaydeosthale.com",
-  },
-  {
-    title: "Medium Blog clone",
-    description:
-      "A streamlined Medium clone, merging effortless content creation with a curated reading journey for contemporary digital storytellers.",
-    tags: ["TypeScript", "Next.js", "Tailwind", "Redux", "Sanity.IO"],
-    imageUrl: medium,
-    url: "https://medium-blogs.akshaydeosthale.com",
-  },
+
+ 
 ] as const;
 
 export const skillsData = [
